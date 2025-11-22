@@ -20,3 +20,9 @@ export interface Score {
   current: number;
   high: number;
 }
+
+export interface LeaderboardEntry {
+  name: string;
+  score: number;
+  timestamp: number;
+}
